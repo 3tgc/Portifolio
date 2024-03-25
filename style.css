@@ -1,0 +1,18 @@
+body {
+    background-color: #222831;
+    color: white;
+}
+
+strong {
+    color: #76ABAE;
+}
+
+h1{
+    font-weight: bold;
+}
+
+span{
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 1px;
+}
