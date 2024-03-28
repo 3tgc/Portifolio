@@ -49,6 +49,7 @@ span{
      
 }
 
+/* arrumar imagem */
 img {
     height: 700px;
     width: 500px;
@@ -92,6 +93,9 @@ img {
 
 .apresentacao__links__link {
     /* background-color:#76ABAE; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px;
     text-align: center;
     border: 2px solid #76ABAE;
@@ -104,3 +108,9 @@ img {
     font-family: "Montserrat", sans-serif;
 
 }
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+    cursor: pointer;
+}
+
